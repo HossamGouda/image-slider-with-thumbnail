@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image slider</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1>Image Slider With Thumbnails</h1>
+    <div class="slider-container">
+      <!-- <button class="prev-btn">Previous</button> -->
+      <i class="fa-solid fa-chevron-left prev-btn"></i>
+      <div class="slider">
+        <div class="img-id">Image 1</div>
+        <img class="active" src="imgs/01.jpg" alt="Image 1" />
+        <img src="imgs/02.jpg" alt="Image 2" />
+        <img src="imgs/03.jpg" alt="Image 3" />
+        <img src="imgs/04.jpg" alt="Image 4" />
+        <img src="imgs/05.jpg" alt="Image 5" />
+        <img src="imgs/06.jpg" alt="Image 6" />
+        <img src="imgs/07.jpg" alt="Image 7" />
+        <img src="imgs/08.jpg" alt="Image 8" />
+      </div>
+      <!-- <button class="next-btn">Next</button> -->
+      <i class="fa-solid fa-chevron-right next-btn"></i>
+    </div>
+    <div class="gallery-container"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
